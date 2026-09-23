@@ -1,0 +1,15 @@
+# Igual que requirements.txt, para quien prefiera conda:
+#   conda env create -f environment.yml
+#   conda activate neurona
+#
+# La lista que manda es requirements.txt; este archivo es una cortesía.
+name: neurona
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - pandas>=2.0
+  - pytest>=7.4
+  - ipykernel>=6.25

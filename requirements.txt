@@ -1,0 +1,13 @@
+# Dependencias del proyecto.
+#
+# Se instalan igual vengas de Anaconda o de Python "normal":
+#   VSCode → Ctrl+Shift+P → "Python: Create Environment" → elige Venv o Conda
+#   y marca este archivo cuando te lo pregunte.
+#
+# A mano, si lo prefieres:  pip install -r requirements.txt
+
+numpy>=1.24
+matplotlib>=3.7
+pandas>=2.0
+pytest>=7.4
+ipykernel>=6.25

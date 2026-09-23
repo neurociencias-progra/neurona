@@ -1,0 +1,21 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secretos — NUNCA se suben. El token de GitHub va aquí.
+.env
+
+# Lo regenerable no se versiona: el script sí, su salida no.
+*.sqlite
+*.db
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
