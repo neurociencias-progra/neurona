@@ -1,0 +1,9 @@
+# Configuración del proyecto.
+#
+# [tool.pytest.ini_options] · pythonpath:
+# añade la raíz del repositorio a la ruta de imports de Python, para que las
+# pruebas puedan hacer `from neurona import ...` sin tener que instalar el
+# paquete. Sin esto, `pytest` (el comando) no encuentra el paquete `neurona`
+# y falla al recolectar las pruebas.
+[tool.pytest.ini_options]
+pythonpath = ["."]
